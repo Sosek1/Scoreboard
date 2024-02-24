@@ -55,7 +55,7 @@ const AdminPanel = () => {
             className="margin-bottom"
             onChange={(e) => setSecondTeamName(e.target.value)}
           ></input>
-          <button type="submit">Zaktualizuj nazywy drużyn</button>
+          <button type="submit">Zaktualizuj nazwy drużyn</button>
         </div>
         <div className="inputs-wrapper">
           <label>Bramki pierwszej drużyny</label>

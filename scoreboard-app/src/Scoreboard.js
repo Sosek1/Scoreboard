@@ -9,6 +9,13 @@ const Scoreboard = () => {
   const [secondTeamName, setSecondTeamName] = useState("Drugi fajny team");
 
   useEffect(() => {
+    fetch("http://localhost:8081/users")
+      .then((res) => res.json())
+      .then((data) => console.log(data))
+      .catch((err) => console.log(err));
+  });
+
+  useEffect(() => {
     let intervalId;
     if (isRunning) {
       intervalId = setInterval(() => setTime(time + 1), 10);
@@ -57,10 +64,6 @@ const Scoreboard = () => {
           {seconds.toString().padStart(2, "0")}
         </h3>
       </div>
-      <button onClick={startStopStopwatchHandler}>
-        {isRunning ? "Stop" : "Start"}
-      </button>
-      <button onClick={reset}>reset</button>
     </div>
   );
 };
