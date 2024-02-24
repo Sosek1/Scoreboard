@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+}

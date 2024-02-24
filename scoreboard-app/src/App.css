@@ -1,0 +1,80 @@
+.score-board-container {
+  margin-top: 24px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.score-board-wrapper {
+  height: 40px;
+  width: fit-content;
+  background-color: #fff;
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border: 2px solid #5ebb46;
+}
+
+.team-name {
+  color: #fff;
+  font-size: 24;
+}
+
+.first-team {
+  width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 36px;
+  border-bottom-left-radius: 36px;
+  height: 100%;
+  background-color: #5ebb46;
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+}
+
+.score {
+  color: #303030;
+  margin: 0;
+}
+
+.second-team {
+  width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 36px;
+  border-bottom-right-radius: 36px;
+  height: 100%;
+  background-color: #5ebb46;
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.timer-wrapper {
+  height: 40px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.timer {
+  padding: 6px 12px;
+  border: 2px solid #5ebb46;
+  border-radius: 36px;
+}
+
+.bar {
+  height: 100%;
+  width: 360px;
+}
+
+/* -------------------------------- */
+
+header {
+}
